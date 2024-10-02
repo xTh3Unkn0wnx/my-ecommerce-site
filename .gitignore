@@ -27,6 +27,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
@@ -34,3 +35,23 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# pnpm lock file
+pnpm-lock.yaml
+
+# Prisma
+prisma/.env
+prisma/migrations/
+
+# Supabase
+supabase/.env
+
+# VS Code settings
+.vscode/
+
+# Other
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
